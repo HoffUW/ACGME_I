@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns10111110101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
+  <layouts>
+    <layout name="npnxnanbsnfns10111110101" font="Lato" controllayout="npnxnanbsnfns10111110101" colorscheme="npxnabnsnfns10111110101" string_table="npxnabnsnfns10111110101" />
+    <layout name="pxabnsnfns10111110101" font="Lato" controllayout="pxabnsnfns10111110101" colorscheme="npxnabnsnfns10111110101" string_table="npxnabnsnfns10111110101" />
+    <layout name="npxnabnsnfns10111110101" font="Lato" controllayout="npxnabnsnfns10111110101" colorscheme="npxnabnsnfns10111110101" string_table="npxnabnsnfns10111110101" />
+    <layout name="npnxnanbnsnfns10111110101" font="Lato" controllayout="npnxnanbnsnfns10111110101" colorscheme="npxnabnsnfns10111110101" string_table="npxnabnsnfns10111110101" />
+    <layout name="pxabnsnfns10111110100" font="Lato" controllayout="pxabnsnfns10111110100" colorscheme="npxnabnsnfns10111110101" string_table="npxnabnsnfns10111110101" />
+    <layout name="pxnanbsnfns00001100101" font="Lato" controllayout="pxnanbsnfns00001100101" colorscheme="npxnabnsnfns10111110101" string_table="npxnabnsnfns10111110101" />
+    <layout name="pxabnsnfns00001100101" font="Lato" controllayout="pxabnsnfns00001100101" colorscheme="npxnabnsnfns10111110101" string_table="npxnabnsnfns10111110101" />
+    <layout name="pxnanbsnfns00001110101" font="Lato" controllayout="pxnanbsnfns00001110101" colorscheme="npxnabnsnfns10111110101" string_table="npxnabnsnfns10111110101" />
+    <layout name="pxabnsnfns00001110101" font="Lato" controllayout="pxabnsnfns00001110101" colorscheme="npxnabnsnfns10111110101" string_table="npxnabnsnfns10111110101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="ACGME-I  Understanding Requirements Module 1" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="true" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="true" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111110100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pxnanbsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxnanbsnfns00001110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npxnabnsnfns10111110101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x404040" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x323232" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAAAAAA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494949" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7B7B7B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1B1B1B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6C263" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1B1B1B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x323232" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npxnabnsnfns10111110101">
+      <string id="acc_active">active</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="acc_definition">definition</string>
+      <string id="acc_finish">finish</string>
+      <string id="acc_next">next</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="acc_previous">previous</string>
+      <string id="acc_replay">replay</string>
+      <string id="acc_resources">resources</string>
+      <string id="acc_search_input">search</string>
+      <string id="acc_skipnavigation">Back to top.</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="acc_volume">volume</string>
+      <string id="action">Action</string>
+      <string id="bio">Bio</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="closed_captions">Captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="definition">Definition</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="glossary">Glossary</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="more_info">More info</string>
+      <string id="next">NEXT</string>
+      <string id="outline">Menu</string>
+      <string id="prev">PREV</string>
+      <string id="question_list">Question List</string>
+      <string id="resources">Resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="search_toggle">Search</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submit">SUBMIT</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="terms">Terms</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="transcript">Notes</string>
+      <string id="transcript_chk">Notes</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6owtgXJO6uQ" displaytext="Understanding ACGME-I Requirements" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6owtgXJO6uQ.5jRfzTmkKoN" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.6lOKMOrT9Q4" displaytext="Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.6Ps2g783afq" displaytext="History of the ACGME-I" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.65ezHwrLWBE" displaytext="ACGME-I MIssion" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.5g4z3xTZOck" displaytext="Terminology" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.5tXQULOfzhC" displaytext="What is Accreditation?" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.5frI9MxVOYH" displaytext="Goals of Accreditation" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.69htcKyiDA3" displaytext="Accreditation is NOT" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.5rzgx7N3Idi" displaytext="Fill in the Blank" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.6Z61SCdQvTE" displaytext="Knowledge Check " expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.5XO9O20GSls" displaytext="Benefits of Accreditation" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.6MWPRS3IBt7" displaytext="Benefits of Accreditation" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.628VgA5UtlJ" displaytext="How is Accreditation Achieved?" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.5W0sNmDcyR2" displaytext="How is Accreditation Achieved?" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.5VByYyyUkcd" displaytext="Knowledge Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6owtgXJO6uQ.6JjOXj7KPMN" displaytext="Contact Us" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#B4B4B4'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://www.acgme-i.org/Accreditation-Process/Glossary" image="story_content/url.png" title="Common Acronyms and Abbreviations" />
+    </resources>
+  </resource_data>
+  <transcript_data />
+  <glossary_data>
+    <terms>
+      <term title="Academic Appointment"> An appointment to a faculty category (e.g., professor, associate professor, adjunct clinical instructor, etc.) of a degree-granting (e.g., BS, BA, MA, MD, DO, PhD, etc.) school, college, or university.</term>
+      <term title="Accreditation"> A voluntary process of evaluation and review based on published requirements and following a prescribed process, performed by a non-governmental agency of peers.</term>
+      <term title="Accreditation Data System (ADS)"> The ADS is an online service of the ACGME-I that allows authorized program directors of accredited graduate medical education programs to input limited amounts of program information data to servers maintained by the ACGME-I or on its behalf.</term>
+      <term title="Accreditation Preparedness Assessment (APA) Visit"> The purpose of the APA visit is to evaluate the sponsoring institution(s)', and residency/ fellowship programs? readiness for ACGME-I accreditation. The visit includes meetings with institution senior leadership; and with the leadership of graduate medical education endeavors, such as the individual providing institutional oversight, residency/fellowship program directors, and residents/fellows, as well as a guided tour of the facilities used in the education of residents/fellows. For a single sponsor institution, the meetings and tour usually occur over two days. The two-member assessment team includes an accreditation specialist and a member of the ACGME-I senior leadership. After the visit, the team will prepare a report to the sponsoring institution or Ministry?s leadership that describes the proposed steps and costs to receive ACGME-I accreditation for the institution(s) and residency/fellowship programs. The sponsoring institution or Ministry bears the direct cost of the APA visit, specifically, air transport (business class) and hotel arrangements for the two-member assessment team.</term>
+      <term title="Accreditation with Warning"> A status that is conferred when a Review Committee determines that a Sponsoring Institution or program fails to demonstrate substantial compliance with several requirements that may jeopardize its future accreditation status.</term>
+      <term title="ACGME-I Administration"> The Chief Executive Officer (CEO) and two Vice Presidents of ACGME-I.</term>
+      <term title="Advanced Specialty Program"> A structured educational experience in a field of medical practice following completion of medical school and, in some cases, prerequisite basic clinical education designed to conform to the Advanced Specialty Program Requirements of a particular specialty; also known as a ?core? program.</term>
+      <term title="Advanced Specialty Program Requirements"> International Advanced Specialty Program Requirements specify what programs must implement in terms of the educational infrastructure, and what they must demonstrate regarding the specialty-specific curriculum, resources, and experiences that are essential in the discipline. Competency-based educational outcomes in the ACGME-ABMS six domains of clinical competency are included in the International Advanced Specialty Program Requirements.</term>
+      <term title="Applicant"> A physician invited to interview for a position in a graduate medical education (GME) program.</term>
+      <term title="Assessment"> An ongoing process of gathering and interpreting information about a learner?s knowledge, skills, and/or behavior.</term>
+      <term title="At-home Call (Pager Call)"> A call taken from outside the assigned site. Time in the hospital, exclusive of travel time, counts against the 80-hour-per-week limit, but does not restart the clock for time off between scheduled in-house duty periods. At-home call may not be scheduled on a resident's/fellow's one free day per week (averaged over four weeks).</term>
+      <term title="Certification"> A process to provide assurance to the public that a certified medical specialist has successfully completed an approved educational program and an evaluation, including an examination process designed to assess the knowledge, experience, and skills requisite to the provision of high-quality care in a particular specialty/subspecialty.</term>
+      <term title="Chief Resident"> Typically a position in the final year of residency (e.g., for surgery programs) or in the year after the residency is completed (e.g., for internal medicine or pediatrics programs).</term>
+      <term title="Citation"> A finding of a Review Committee that a program or an institution is failing to comply substantially with a particular accreditation standard or ACGME-I policy or procedure.</term>
+      <term title="Clarification"> For multiple ambulatory medical sites under separate ownership from the sponsoring institution, one central or corporate site (and address) must represent the satellite clinics that are located within 10 miles of the main site.</term>
+      <term title="Clarifying Information"> A Review Committee may request clarifying information that specifies information to be provided, including a due date for the clarifying information.</term>
+      <term title="Clinical"> Refers to the practice of medicine in which physicians assess patients (in person or virtually) or populations in order to diagnose, treat, and prevent disease using their expert judgment. It also refers to physicians who contribute to the care of patients by providing clinical decision support and information systems, laboratory, imaging, or related studies.</term>
+      <term title="Clinical Competency Committee (CCC)"> A required body comprising three or more members of the active teaching faculty that is advisory to the program director and reviews the progress of all residents/fellows in a program.</term>
+      <term title="Clinical Responsibility/Workload Limits"> Reasonable maximum levels of assigned work for residents/fellows consistent with ensuring both patient safety and a quality educational experience. Such workloads, and their levels of intensity, are specialty-specific and must be thoroughly examined by an ACGME-I Review Committee before inclusion as program requirements.</term>
+      <term title="Clinical Supervision"> A required faculty activity involving the oversight and direction of patient care activities provided by residents/fellows.</term>
+      <term title="Competencies"> Specific knowledge, skills, behaviors, and attitudes and the appropriate educational experiences required of residents/fellows to complete GME programs.</term>
+      <term title="Complement"> The maximum number of residents/fellows approved by the ACGME-I per program based upon availability of resources.</term>
+      <term title="Compliance"> A program?s or institution?s adherence to a set of prescribed requirements.</term>
+      <term title="Conditional Independence"> Graded, progressive responsibility for patient care with defined oversight.</term>
+      <term title="Confidential Information"> Information intended to be disclosed only to an authorized person; that an evaluation is deemed confidential does not imply that the source of the evaluation is anonymous.</term>
+      <term title="Continued Accreditation"> An accreditation status that is conferred when a Review Committee determines that a Sponsoring Institution or a program demonstrates substantial compliance with requirements.</term>
+      <term title="Continuity Clinic"> Setting for longitudinal experience in which residents/fellows develop a continuous, long-term therapeutic relationship with a panel of patients.</term>
+      <term title="Continuous time on duty"> The period that a resident/fellow is in the hospital (or other clinical care setting) continuously, counting his or her regular scheduled day and time on call, and the hours he or she remains on duty after the end of the on-call period to transfer the care of patients and for didactic activities.</term>
+      <term title="Core Faculty"> All physician faculty members who have a significant role in the education of residents/fellows and who have documented qualifications to instruct and supervise. Core faculty members devote at least 15 hours per week to resident, or 10 hours per week to fellow, education and administration. All core faculty members should evaluate the competency domains, work closely with and support the program director, assist in developing and implementing evaluation systems, and teach and advise residents/fellows.</term>
+      <term title="Core Program"> See Advanced Specialty Program.</term>
+      <term title="Core Specialty"> A field of medical practice that focuses on a specific set of patient care skills and a defined knowledge base. Education in a core specialty requires completion of a core residency program.</term>
+      <term title="Cycle Length"> The interval between an accreditation action and the target date identified for the next site visit.</term>
+      <term title="Dependent Subspecialty Program"> A program that is required to function in conjunction with an accredited core or subspecialty program, usually reviewed conjointly with the core or subspecialty program, usually sponsored by the same sponsoring institution, and geographically proximate to the core residency program. The Continued Accreditation of this subspecialty program is dependent on the core or subspecialty program with which it is affiliated maintaining its accreditation.</term>
+      <term title="Designated Institutional Official (DIO)"> The individual in a sponsoring institution who has the authority over and responsibility for all ACGME-I-accredited GME programs.</term>
+      <term title="Didactic"> A planned, systematic, instructed learning experience, such as a conference, journal club, or grand rounds.</term>
+      <term title="Disaster"> An event or set of events causing significant alteration to the residency/fellowship experience at one or more residency/fellowship programs.</term>
+      <term title="Dreyfus Model"> A developmental construct of skill acquisition using five stages, from novice to expert, with each step building on the previous. A novice is rule-based but context-free; an advanced beginner takes into account situational aspects; someone who is competent is able to devise a plan and decide what is important; someone who is proficient uses intuitive behavior in place of reasoned process; and an expert routinely makes subtle discriminations and immediate intuitive responses.</term>
+      <term title="Duty Hours"> All clinical and academic activities related to the program, including patient care (both inpatient and outpatient), administrative duties relative to patient care, the provision for transfer of patient care, time spent in-house during call activities, and scheduled activities, such as conferences. Duty hours do not include reading and preparation time spent away from the duty site. (See International Foundational Program Requirements).</term>
+      <term title="Elective"> An educational experience approved for inclusion in the program curriculum and selected by a resident in consultation with his or her program director.</term>
+      <term title="Essential"> See Must.</term>
+      <term title="Extraordinary Circumstances"> Circumstances that significantly alter the ability of a sponsoring institution and its programs to support resident/fellow education. If the CEO of the ACGME-I, in consultation with the Chair of the ACGME Finance Committee, determines that a Sponsoring Institution?s ability to support resident/fellow education has been significantly altered, he or she shall invoke the ACGME-I Extraordinary Circumstances policy. (See ACGME-I Policy and Procedure Manual, subject</term>
+      <term title="Extreme Emergent Situation"> A local event (such as a hospital-declared disaster for an epidemic) that affects resident/fellow education or the work environment but does not rise to the level necessitating invocation of the ACGME-I Extraordinary Circumstances policy.</term>
+      <term title="Faculty"> The collective body of physicians who have individually received a formal assignment to teach resident/fellow physicians. At some sites appointment to the medical staff of the hospital constitutes appointment to the faculty.</term>
+      <term title="Fatigue management"> Recognition, by either a resident/fellow or supervisor, of a level of (only of a resident/fellow) fatigue that may adversely affect patient safety and their enactment of a solution to mitigate it.</term>
+      <term title="Fellow"> A physician in an ACGME-I-accredited program who has completed an educational program in the core specialty. The term ?subspecialty residents? is also applied to such physicians. Other uses of the term "fellow" require modifiers for precision and clarity (e.g., research fellow).</term>
+      <term title="Fellowship"> See Subspecialty Program.</term>
+      <term title="Fitness for duty"> Describes that an individual is mentally and physically able to effectively perform required duties and promote patient safety.</term>
+      <term title="Formative Evaluation"> Assessment of a resident/fellow with the primary purpose of providing feedback for improvement, as well as to reinforce skills and behaviors that meet established criteria and performance standards.</term>
+      <term title="Foundational Program Requirements"> The set of ACGME-I requirements that outline the educational infrastructure needed for all specialty programs. To meet International Foundational Requirements, a program must demonstrate systematic evaluation of program personnel, faculty and residents/fellows; must adhere to established resident/fellow selection processes; and must ensure the availability of appropriate resources, including the faculty ratios and minimum time for program director and core faculty members, regardless of specialty.</term>
+      <term title="Graduate Medical Education (GME)"> The period of didactic and clinical education in a medical specialty that follows the completion of a recognized undergraduate medical education and which prepares physicians for the independent practice of medicine in that specialty area, also referred to as 'residency education.' The term ?graduate medical education? also applies to the period of didactic and clinical education in a medical subspecialty which follows the completion of education in a recognized medical specialty and which prepares physicians for the independent practice of medicine in that subspecialty area (or 'fellowship education').</term>
+      <term title="Graduate Year Level"> Refers to a resident's/fellow's current year of accredited GME. This designation may or may not correspond to the resident?s/fellow's particular year in a program. For example, a pediatric cardiology resident could be in the first program year of the pediatric cardiology program but in his or her fifth year of GME (including the four prior years of pediatrics). Also referred to as post-graduate year (PGY).</term>
+      <term title="In-house Call"> Any duty hours beyond the normal work day when residents/fellows are required to be immediately available in the assigned institution.</term>
+      <term title="Initial Accreditation"> A status that is conferred when a Review Committee determines that an application for a new Sponsoring Institution or program substantially complies with the requirements. Initial Accreditation is considered a developmental stage.</term>
+      <term title="Institutional Agreement"> See Program Letter of Agreement.</term>
+      <term title="Institutional Review"> The process undertaken by the ACGME-I to determine whether a sponsoring institution offering GME programs is in substantial compliance with the Institutional Requirements.</term>
+      <term title="Integrated PGY-1"> 12 months of basic clinical skills education that is completed prior to advanced specialty rotations. The integrated PGY-1 is an option for specialties that require a broad-based clinical year prior to advanced specialty education.</term>
+      <term title="Intern"> Historically, a designation for individuals in the first year of GME. This term is no longer used by the ACGME-I.</term>
+      <term title="Internal Review"> A self-evaluation process undertaken by sponsoring institutions and ACGME-I-accredited programs to judge whether each is in substantial compliance with accreditation requirements.</term>
+      <term title="In-training Examination"> Formative examinations developed to evaluate resident/fellow progress in meeting the educational objectives of a residency/fellowship program. These examinations may be offered by certification boards, specialty societies, colleges, or specialty training committees.</term>
+      <term title="JC-I"> Joint Commission International, formally known as the Joint Commission on Accreditation of Healthcare Organizations International or JCAHO-I, which evaluates and accredits health care organizations outside of the United States.</term>
+      <term title="Letter of Notification (LON)"> The official communication from the ACGME-I that states an action taken by a Review Committee.</term>
+      <term title="Major Participating Site"> A site to which all residents in at least one program rotate for a required educational experience. To be designated as a major participating site in a two-year program, all residents must spend at least four months in a single required rotation or a combination of required rotations across both years of the program. In programs of three years or more, all residents must spend at least six months in a single required rotation or a combination of required rotations across all years of the program. The term ?major participating site? does not apply to sites providing required rotations in one-year programs.</term>
+      <term title="Medical School Affiliation"> A formal relationship between a medical school and a sponsoring institution.</term>
+      <term title="Mock Site Visit"> A structured site visit by an institution or specialty expert to provide an institution or program with an assessment of its readiness to become ACGME-I-accredited, based on submitted application materials and interviews of key persons. The site visitor?s report with recommendations is reviewed by a Review Committee, which provides a final report to the institution or program that indicates areas of non-compliance or suggestions for improvement. The mock site visit is an educational activity that is requested by the entity seeking accreditation and does not influence the future Initial Accreditation review.</term>
+      <term title="Mock visit"> A structured visit by an institutional or specialty expert to provide an institution or program with an assessment of its readiness for ACGME-I accreditation, based on submitted application materials and interviews of key persons. The mock site visit is an educational activity requested by the entity seeking accreditation and does not influence the future Initial Accreditation review.</term>
+      <term title="Must"> A term used to identify a requirement which is mandatory or done without fail. This term indicates an absolute requirement.</term>
+      <term title="New Patient"> Any patient for whom a resident/fellow has not previously provided care. An ACGME-I Review Committee may further define the term ?new patient.? (See Foundational and Advanced Specialty Program Requirements).</term>
+      <term title="Night Float"> A rotation or educational experience designed to either eliminate in-house call or to assist other residents/fellows during the night. Residents/fellows assigned to night float are assigned on-site duty during evening/night shifts, are responsible for admitting or cross-covering patients until morning, and do not have daytime assignments. Such a rotation must have an educational focus.</term>
+      <term title="One Day Off"> One (1) continuous 24-hour period free from all administrative, clinical, and educational activities.</term>
+      <term title="Ownership of Institution"> Refers to the governance, control, or type of ownership of the institution.</term>
+      <term title="Pager Call"> See At-Home Call. Call taken from outside the assigned site.</term>
+      <term title="Participating Site"> An organization providing educational experiences or educational assignments/rotations/postings for residents/fellows. Examples include</term>
+      <term title="Plan-Do-Study-Act (PDSA)"> A four-part method for discovering and correcting assignable causes to improve the quality of processes; the method may be applied to individual learning, courses, programs, institutions, and systems, in repeated cycles.</term>
+      <term title="Posting"> See Rotation.</term>
+      <term title="Preliminary positions"> Positions for residents who, at the time of admission to a program, have not been accepted into any specialty. Preliminary positions are permitted only in ACGME-I-accredited programs in general surgery and internal medicine. The number of residents in preliminary positions must not exceed the total number of approved positions in the first year of the categorical or specialty program. Residents are appointed to preliminary positions for a maximum of one year.</term>
+      <term title="Primary Clinical Site"> The principal or primary teaching hospital that is used most commonly for the residency/fellowship program.</term>
+      <term title="Probationary Accreditation"> A status that is conferred when a Review Committee determines that a Sponsoring Institution or program fails to demonstrate substantial compliance with the Requirements.</term>
+      <term title="Proficiency"> demonstrating the knowledge, skills, and attitudes required to successfully complete a task.</term>
+      <term title="Program"> A structured educational experience in GME designed to conform to the Foundational and Advanced Specialty Requirements of a particular specialty or subspecialty, the satisfactory completion of which may result in a physician?s eligibility for certification or credentialing to practice independently in a given specialty.</term>
+      <term title="Program Director"> The one physician designated with authority over and accountability for the operation of a residency or fellowship program.</term>
+      <term title="Program Evaluation"> Systematic collection and analysis of information related to the design, implementation, and outcomes of a GME program, for the purpose of monitoring and improving its quality and effectiveness.</term>
+      <term title="Program Information Form (PIF)"> The document completed by the program director in preparation for a site visit. The document is a compilation of requested information that reflects the current status of the educational program. Information is (1) entered into the ADS, addressing the program?s compliance with the International Foundational Program Requirements, and (2) provided via the Advanced Specialty or Subspecialty PIF, a Word document which addresses compliance with the Advanced Specialty or Subspecialty Program Requirements and is uploaded as an attachment in ADS.</term>
+      <term title="Program Letter of Agreement (PLA)"> A written document that addresses GME responsibilities between an individual accredited program and a site other than the primary clinical site at which residents/fellows receive a required part of their education. (See Foundational Program Requirements).</term>
+      <term title="Program Merger"> Two or more programs that combine to create a single program. One program may maintain Continued Accreditation while accreditation is Voluntarily Withdrawn from the other(s). Alternatively, both (all) programs may be withdrawn and a new program established. A site visit and program assessment by a Review Committee may be necessary following a program merger.</term>
+      <term title="Program Year"> Refers to the current year of a resident?s/fellow's education within a specific program; this designation may or may not correspond to the resident?s/fellow's graduate year level.</term>
+      <term title="Required"> Educational experiences within a residency/fellowship program designated for completion by all residents/fellows.</term>
+      <term title="Residency"> A program accredited to provide a structured educational experience designed to conform to the Foundational and Advanced Specialty Requirements of a particular specialty.</term>
+      <term title="Resident"> A physician in an accredited GME specialty program.</term>
+      <term title="Review Committee-International"> The committee appointed by the Chief Executive Officer of ACGME-I to reviews accreditation standards and provides peer evaluation of Sponsoring Institutions and residency and fellowship programs. Members include physician specialists who represent major areas of graduate medical education (GME) and have significant experience in accreditation of GME institutions and programs. Members are from the United States and ACGME-I-accredited Sponsoring Institutions and programs.</term>
+      <term title="Rotation"> An educational experience of planned activities in selected settings, over a specific time period, developed to meet specific goals and objectives of the program.</term>
+      <term title="Scheduled duty periods"> Assigned activities within the institution encompassing hours which may be within the normal work day, beyond the normal work day, or a combination of both.</term>
+      <term title="Scholarly Activity"> An opportunity for residents/fellows and faculty members to participate in research or other forms of scholarship, such as organized clinical discussions, rounds, journal clubs, and conferences. Some members of the faculty should also demonstrate participation in scholarly activity through one or more of the following</term>
+      <term title="Shall"> See Must.</term>
+      <term title="Short Call"> Responsibility for admitting patients to the teaching service during the early part of the day. Residents/fellows begin call in the morning, admit patients until some designated time in the afternoon or late morning, and do not stay in the hospital overnight.</term>
+      <term title="Should"> A term used to designate requirements so important that their absence must be justified. A program or institution may be cited for failing to comply with a requirement that includes the term ?should.?</term>
+      <term title="Site"> An organization providing educational experiences or assignments/rotations for residents/fellows.</term>
+      <term title="Site Director"> The faculty member at a participating site who is responsible for the administration of the educational program at that site, including assessment of residents/fellows and oversight of the policies and procedures that govern resident/fellow education during their assignment at the site.</term>
+      <term title="Specialty Program"> See Advanced Specialty Program.</term>
+      <term title="Sponsoring Institution"> The organization (or entity) that assumes the ultimate financial and academic responsibility for a GME program. The sponsoring institution has the primary purpose of providing educational programs and/or health care services (e.g., a university, a medical school, a hospital, a school of public health, a health department, a public health agency, an organized health care delivery system, a medical examiner?s office, a consortium, or an educational foundation).</term>
+      <term title="Strategic napping"> Short sleep periods, taken as a component of fatigue management, that can mitigate the adverse effects of sleep loss.</term>
+      <term title="Subspecialty Program"> A structured educational experience following completion of a prerequisite specialty/core program in GME designed to conform to the Advanced Specialty Requirements of a particular subspecialty area. The subspecialty program functions in conjunction with an accredited specialty/core program, sponsored by the same sponsoring institution, and in geographic proximity to the core program (also called a 'fellowship').</term>
+      <term title="Summative Evaluation"> Assessment with the primary purpose of establishing whether or not performance measured at a single defined point in time meets established performance standards, permanently recorded in the form of a grade or score. Also determines the successful completion an educational program.</term>
+      <term title="Supervising Physician"> A physician (faculty member, more senior resident, or fellow) designated by the program director as the supervisor of a junior resident. Such designation must be based on the demonstrated medical and supervisory capabilities of the physician.</term>
+      <term title="Supervision Levels"> To ensure oversight of resident/fellow supervision and graded authority and responsibility, the program must use the following classification of supervision</term>
+      <term title="Transfer resident"> Residents are considered ?transfer residents? under several conditions, such as</term>
+      <term title="Transitional Year Program"> A one-year educational experience in GME structured to provide a program of multiple clinical disciplines; designed to facilitate the choice of and/or preparation for a specialty.</term>
+      <term title="Transitions of care"> The relaying of complete and accurate patient information between individuals or teams in transferring responsibility for patient care in the health care setting.</term>
+      <term title="Withdrawal of Accreditation"> A status that is conferred when a Review Committee determines that a Sponsoring Institution or program fails to demonstrate substantial compliance with the Requirements.</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
